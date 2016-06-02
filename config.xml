@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.ionicframework.kitchentimer700216" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>kitchen-timer</name>
+  <description>
+        An Ionic Framework and Cordova project.
+    </description>
+  <author email="you@example.com" href="http://example.com.com/">
+      Your Name Here
+    </author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="SplashScreenDelay" value="2000"/>
+  <preference name="FadeSplashScreenDuration" value="2000"/>
+  <preference name="android-minSdkVersion" value="16"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <feature name="StatusBar">
+    <param name="ios-package" onload="true" value="CDVStatusBar"/>
+  </feature>
+  <feature name="Device">
+    <param name="id" value="cordova-plugin-device"/>
+  </feature>
+  <feature name="Console">
+    <param name="id" value="cordova-plugin-console"/>
+  </feature>
+  <feature name="Whitelist">
+    <param name="id" value="cordova-plugin-whitelist"/>
+  </feature>
+  <feature name="Splashscreen">
+    <param name="id" value="cordova-plugin-splashscreen"/>
+  </feature>
+  <feature name="StatusBar">
+    <param name="id" value="cordova-plugin-statusbar"/>
+  </feature>
+  <feature name="Keyboard">
+    <param name="id" value="ionic-plugin-keyboard"/>
+  </feature>
+</widget>
